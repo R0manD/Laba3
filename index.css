@@ -1,0 +1,202 @@
+
+
+body {
+    font-family: "Rubik", Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0; 
+}
+
+/* Стилізація заголовка */
+header {
+    background-color: #000000;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Стилізація навігаційного меню */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Стилізація основних розділів */
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Стилізація підвалу */
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+}sos im
+.speaker-info {
+    border: 1px solid #57abff;
+    border-radius: 5px;
+    margin-top: 88px;
+    padding-bottom: 22px;
+    text-align: center;
+  }
+  code {
+    background: #2db34a;
+    border-radius: 6px;
+    color: #fff;
+    display: block;
+    font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+    padding: 24px 15px;
+    text-align: center;
+  }
+.carpaty {
+    text-align: center;
+}
+
+.col-1-3 {
+    text-align: center;
+    display: inline-block;
+    width: 33.33%;
+    vertical-align: top; /* Align items to the top */
+    box-sizing: border-box; /* Include padding and border in the width */
+    padding: 10px; /* Add padding to create spacing between items */
+    margin: 0; /* Remove margin to avoid extra space */
+}
+.title {
+    color: rgb(231, 231, 231);
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+
+/*Menu*/
+.menu {
+    position: absolute;
+    left: 47.5%;
+}
+
+.main-menu {
+    list-style: none;
+}
+
+.main-menu li {
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.submenu {
+    position: relative;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -100;
+    background-color: #000000;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.submenu:hover .sub-menu {
+    display: block;
+}
+
+.arrow {
+    margin-left: 1px;
+}
+
+/*Кнопка вверх*/
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+    cursor: pointer;
+  }
+  #back-to-top img {
+    width: 50px;
+    height: 50px;
+  }
+  
+/***Пошук***/
+.search{
+  body {
+  background-color: #8ebf42;
+  }
+  form {
+  width:400px;
+  margin:auto;
+  margin-top: 250px;
+  }
+  input{
+  padding:4px 10px;
+  border:0;
+  font-size:16px;
+  }
+  .search {
+  width: 75%;
+  }
+  .submit{
+  width: 70px;
+  background-color: #1c87c9;
+  color:#ffffff;
+  }
+}
+
+
+/*Фотографії*/
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    direction: 1tr;
+}
+
+.container img {
+    width: 100%;
+    height: 300px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+        direction: 1tr;
+    }
+}
+.title:hover {
+    background: linear-gradient(to right, #ff7f5f, #e5ff002d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
